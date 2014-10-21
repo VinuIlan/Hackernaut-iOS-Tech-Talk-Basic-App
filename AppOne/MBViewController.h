@@ -10,4 +10,10 @@
 
 @interface MBViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UIButton *changeTextButton;
+
+- (IBAction)changeText:(id)sender;
+
+
 @end

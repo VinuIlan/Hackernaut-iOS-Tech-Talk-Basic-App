@@ -21,6 +21,7 @@
 		97D1599818EB59B80007D6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D1597A18EB59B70007D6FB /* UIKit.framework */; };
 		97D159A018EB59B80007D6FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97D1599E18EB59B80007D6FB /* InfoPlist.strings */; };
 		97D159A218EB59B80007D6FB /* AppOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D159A118EB59B80007D6FB /* AppOneTests.m */; };
+		97D159AD18EB61970007D6FB /* MBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D159AC18EB61970007D6FB /* MBSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		97D1599D18EB59B80007D6FB /* AppOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppOneTests-Info.plist"; sourceTree = "<group>"; };
 		97D1599F18EB59B80007D6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97D159A118EB59B80007D6FB /* AppOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppOneTests.m; sourceTree = "<group>"; };
+		97D159AB18EB61970007D6FB /* MBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBSecondViewController.h; path = ../MBSecondViewController.h; sourceTree = "<group>"; };
+		97D159AC18EB61970007D6FB /* MBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBSecondViewController.m; path = ../MBSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				97D1598818EB59B80007D6FB /* Main.storyboard */,
 				97D1598B18EB59B80007D6FB /* MBViewController.h */,
 				97D1598C18EB59B80007D6FB /* MBViewController.m */,
+				97D159AB18EB61970007D6FB /* MBSecondViewController.h */,
+				97D159AC18EB61970007D6FB /* MBSecondViewController.m */,
 				97D1598E18EB59B80007D6FB /* Images.xcassets */,
 				97D1597D18EB59B70007D6FB /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D1598318EB59B80007D6FB /* main.m in Sources */,
+				97D159AD18EB61970007D6FB /* MBSecondViewController.m in Sources */,
 				97D1598D18EB59B80007D6FB /* MBViewController.m in Sources */,
 				97D1598718EB59B80007D6FB /* MBAppDelegate.m in Sources */,
 			);

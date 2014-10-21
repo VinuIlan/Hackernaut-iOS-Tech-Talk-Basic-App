@@ -7,12 +7,19 @@
 //
 
 #import "MBViewController.h"
+#import "MBSecondViewController.h"
 
 @interface MBViewController ()
 
 @end
 
 @implementation MBViewController
+
+
+- (IBAction)changeText:(id)sender {
+    _titleLabel.text = @"How are you?";
+}
+
 
 - (void)viewDidLoad
 {
